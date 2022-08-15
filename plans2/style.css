@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat';
+    background-color: #a9d2fe;
+}
+
+.img-aviao{
+    z-index: 3;
+    position: absolute;
+    width: 285px;
+    top: 0;
+    left: 0;
+}
+.img-passport{
+    position: absolute;
+    width: 337px;
+    bottom: 0px;
+    left: 75%;
+}
+
+.info{
+    position: absolute;
+    left: 37%;
+    top: 14%;
+    width: 40%;
+}
+
+h1{
+    color: #333;
+    margin-bottom: 40px;
+}
+
+p{
+    line-height: 1.5;
+}
+
+.plans{
+    display: flex;
+    position: absolute;
+    top: 285px;
+    left: 47px;
+}
+
+.plano{
+    background-color: #fff;
+    z-index: 9000;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    height: auto;
+    width: 186px;
+}
+
+.plano:hover{
+    /* background-color: #F50057; */
+    box-shadow: 7px 5px 21px 7px rgb(255 245 245 / 89%);
+}
+
+h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+ul li{
+    margin-left: 20px;
+    font-size: 13px
+}
+
+h3{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+span{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+button{
+    width: 100%;
+    background-color: #F50057;
+    border: none;
+    border-radius: 10px;
+    height: 42px;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 600;
+}
